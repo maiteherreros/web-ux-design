@@ -1,0 +1,113 @@
+/* 
+color gris: #dde8e6
+color blanco: #fff
+color negro: #292a2c
+color negro hover: #4e5155
+*/
+/* Importaciones y variables */
+@font-face {
+    font-family: "Heebo";
+    src: url("../fonts/Heebo-Regular.woff2") format("woff");
+    font-display: fallback;   
+}
+@font-face {
+    font-family: "Heebo";
+    src: url("../fonts/Heebo-Bold.woff2") format("woff") ;
+    font-weight: bold;
+    font-display: fallback;
+    
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.woff2") format("woff");
+    font-display: fallback;
+    
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.woff2") format("woff");
+    font-weight: bold;
+    font-display: fallback;
+}
+/* Etiquetas globales */
+body {
+    margin: 0;
+    font-family: "Open Sans";
+    color:#292a2c;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Heebo";
+   
+}
+
+/* clases globales de componentes */
+
+.container {
+    max-width: 40rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.alert {
+    background: #dde8e6;
+    font-size: 1.2rem;
+    padding: .2rem 0;
+    margin: 2rem 0;
+}
+
+.alert__text {
+    margin: 0;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.link {
+    color:#292a2c;
+    text-decoration-thickness: 2px;
+}
+
+.link:hover {
+    color: #4e5155;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #292a2c;
+    color: #292a2c;
+    text-decoration: none;
+    text-align: center;
+    padding: .8rem 1.5rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    transition: .3s;
+
+}
+
+.button:hover {
+    background: #292a2c;
+    color: #fff;
+}
+
+
+/* clases directas */
+
+.info {
+    max-width: 22rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.info__title {
+    margin: 2 rem 0;
+}
+
+.info__text {
+    line-height: 1.7rem;
+}
+
+.info__button {
+    margin: 2rem 0;
+}
